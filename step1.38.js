@@ -1,0 +1,13 @@
+/*Step 38
+That's closer, but the price didn't stay over on the right. This is because inline-block elements only take up the width of their content. To spread them out, add a width property to the flavor and price class selectors that have a value of 50% each.*/
+
+
+.flavor {
+    text-align: left;
+    width: 50%
+  }
+  
+  .price {
+    text-align: right;
+    width: 50%
+  }
