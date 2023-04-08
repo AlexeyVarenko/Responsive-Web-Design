@@ -1,0 +1,15 @@
+/*Step 54
+That looks better. Now try to add the same 20px padding to the top and bottom of the menu.*/
+
+
+
+.menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
