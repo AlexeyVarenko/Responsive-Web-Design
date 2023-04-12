@@ -1,0 +1,7 @@
+/*Step 64
+Inside the footer, add a p element. Then, nest an anchor (a) element in the p that links to https://www.freecodecamp.org and has the text Visit our website.*/
+
+
+<footer>
+<p ><a href="https://www.freecodecamp.org">Visit our website</a></p>
+</footer>
