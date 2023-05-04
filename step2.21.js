@@ -1,0 +1,11 @@
+/*Step 21
+There are two main color models: the additive RGB (red, green, blue) model used in electronic devices, and the subtractive CMYK (cyan, magenta, yellow, black) model used in print.
+
+In this project, you'll work with the RGB model. This means that colors begin as black, and change as different levels of red, green, and blue are introduced. An easy way to see this is with the CSS rgb function.
+
+Create a new CSS rule that targets the class container and set its background-color to black with rgb(0, 0, 0).*/
+
+
+.container{
+    background-color: rgb(0, 0, 0)
+  }
