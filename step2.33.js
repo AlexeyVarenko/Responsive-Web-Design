@@ -1,0 +1,6 @@
+/*Step 33
+And to create the tertiary color violet, combine magenta with blue. Update the rgb function in the .three CSS rule so that blue is at the max value, and set red to 127.*/
+
+.three {
+    background-color: rgb(127, 0, 255);
+  }
