@@ -1,0 +1,7 @@
+/*Step 71
+Create a new CSS rule that targets the class sleeve. Set the width property to 110px, and the height property to 25px.*/
+
+.sleeve{
+    width:110px;
+    height: 25px;
+  }
