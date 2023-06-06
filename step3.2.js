@@ -1,0 +1,6 @@
+/*Step 2
+Below the DOCTYPE, add an html element with a lang attribute set to en, so that you have a place to start putting some code.*/
+
+
+<!DOCTYPE html>
+<html lang="en"></html>
