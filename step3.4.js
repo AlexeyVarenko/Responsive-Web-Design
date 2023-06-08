@@ -1,0 +1,8 @@
+/*Step 4
+Add a title and a meta element to the head. Give your project a title of Registration Form, and give a charset attribute with a value of UTF-8 to your meta element.*/
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+  </head>
