@@ -1,0 +1,9 @@
+/*Step 11
+As suggested by the title, you are creating a form. So, after the p element, insert a form with an action attribute targeting https://register-demo.freecodecamp.org.*/
+
+
+<body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form action="https://register-demo.freecodecamp.org"></form>
+  </body>
