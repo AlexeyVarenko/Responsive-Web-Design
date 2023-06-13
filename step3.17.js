@@ -1,0 +1,10 @@
+/*Step 17
+Nest an input element within each label. Be sure to add each input after the label text, and include a space after the colon.*/
+
+
+<fieldset>
+        <label>Enter Your First Name: <input> </label>
+        <label>Enter Your Last Name: <input> </label>
+        <label>Enter Your Email: <input> </label>
+        <label>Create a New Password: <input> </label>
+      </fieldset>
