@@ -1,0 +1,8 @@
+/*Step 53
+To make the input and textarea elements blend in with the background theme, set their background-color to #0a0a23. Then, give them a 1px, solid border with a color of #0a0a23.*/
+
+
+input, textarea{
+    background-color:#0a0a23;
+    border: 1px solid #0a0a23;
+  }
