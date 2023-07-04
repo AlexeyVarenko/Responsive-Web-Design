@@ -1,0 +1,10 @@
+/*Step 1
+By now, you should be familiar with the basic elements an HTML page should have.
+
+Set up your code with a DOCTYPE declaration, an html element with the language set to English, a head element, and a body element.*/
+
+<!DOCTYPE html>
+<html lang="en">
+  <head></head>
+  <body></body>
+</html>
