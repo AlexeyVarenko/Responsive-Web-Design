@@ -1,0 +1,25 @@
+/*Step 4
+Within your head element, add a link element with the rel attribute set to stylesheet and the href attribute set to https://fonts.googleapis.com/css?family=Open+Sans:400,700,800.
+
+This will import the Open Sans font family, with the font weight values 400, 700, and 800.
+
+Also add a link element to link your styles.css file.*/
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Nutrition Label</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>Nutrition Facts</h1>
+  <p>8 servings per container</p>
+  <p>Serving size 2/3 cup (55g)</p>
+</body>
+</html>
