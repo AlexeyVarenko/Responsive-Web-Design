@@ -1,0 +1,7 @@
+/*Step 6
+The font is a bit small. Create an html selector and set the font to have a size of 16px.*/
+
+
+html {
+    font-size: 16px;
+  }
