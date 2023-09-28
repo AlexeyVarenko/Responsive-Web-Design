@@ -1,0 +1,10 @@
+/*Step 12
+Within your tbody element, add four tr elements. Give the first three a class attribute set to data, and the fourth a class attribute set to total.*/
+
+
+<tbody>
+              <tr class="data"></tr>
+              <tr class="data"></tr>
+              <tr class="data"></tr>
+              <tr class="total"></tr>
+            </tbody>
