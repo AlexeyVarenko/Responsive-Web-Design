@@ -1,0 +1,10 @@
+/*Step 9
+The thead and tbody elements are used to indicate which portion of your table is the header, and which portion contains the primary data or content.
+
+Add a thead and tbody to your first table, below the caption element.*/
+
+<table>
+            <caption>Assets</caption>
+            <thead></thead>
+            <tbody></tbody>
+          </table>
