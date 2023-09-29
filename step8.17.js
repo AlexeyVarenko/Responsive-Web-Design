@@ -1,0 +1,10 @@
+/*Step 17
+Time to move on to your second table. Start by giving it a caption element set to Liabilities. Then add your thead and tbody.*/
+
+
+
+<table>
+            <caption>Liabilities</caption>
+            <thead></thead>
+            <tbody></tbody>
+          </table>
