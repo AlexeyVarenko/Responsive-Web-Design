@@ -1,0 +1,22 @@
+/*Step 20
+Within the tbody element, add four tr elements. Give the first three the class attribute set to data, and the fourth the class attribute set to total.*/
+
+
+
+<table>
+            <caption>Liabilities</caption>
+            <thead>
+              <tr>
+              <td></td>
+              <th><span class="sr-only">2019</span></th>
+              <th><span class="sr-only">2020</span></th>
+              <th><span class="sr-only">2021</span></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="data"></tr>
+              <tr class="data"></tr>
+              <tr class="data"></tr>
+              <tr class="total"></tr>
+            </tbody>
+          </table>
