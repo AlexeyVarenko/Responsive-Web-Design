@@ -1,0 +1,9 @@
+/*Step 25
+For your third table, add a caption with the text Net Worth, and set up a table header and table body.*/
+
+
+<table>
+            <caption>Net Worth</caption>
+            <thead></thead>
+            <tbody></tbody>
+          </table>
