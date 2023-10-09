@@ -1,0 +1,9 @@
+/*Step 37
+The :first-of-type pseudo-selector is used to target the first element that matches the selector. Create an h1 .flex span:first-of-type selector to target the first span element in your .flex container. Remember that your span elements are reversed, visually, so this will appear to be the second element on the page.
+
+Give your new selector a font-size property of 0.7em to make it look like a sub-heading.*/
+
+
+h1 .flex span:first-of-type{
+    font-size: 0.7em;
+  }
