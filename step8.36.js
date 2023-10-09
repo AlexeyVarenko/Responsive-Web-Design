@@ -1,0 +1,9 @@
+/*Step 36
+Target your flex container with an h1 .flex selector. Give it a display property set to flex to enable the flexbox layout. Then set the flex-direction property to column-reverse - this will display the nested elements from bottom to top. Finally, set the gap property to 1rem to create some space between the elements.*/
+
+
+h1 .flex{
+    display:flex;
+    flex-direction:column-reverse;
+    gap: 1rem;
+  }
