@@ -1,0 +1,8 @@
+/*Step 49
+Create a table selector to target your tables. Set the border-collapse property to collapse, which will allow cell borders to collapse into a single border, instead of a border around each cell. Also set the border property to 0 to hide the borders themselves.*/
+
+
+table{
+    border-collapse:collapse;
+     border: 0;
+  }
