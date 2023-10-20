@@ -1,0 +1,10 @@
+/*Step 65
+
+Your dollar amounts are currently misaligned. Create a selector to target the td elements within your tr.data elements. Vertically align the text to the top, horizontally align the text to the right, and set the padding to 0.3rem 0.25rem 0.*/
+
+
+tr.data td{
+    vertical-align: top;
+    text-align: right;
+    padding: 0.3rem 0.25rem 0;
+  }
