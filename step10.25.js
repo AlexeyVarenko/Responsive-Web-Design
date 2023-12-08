@@ -1,0 +1,13 @@
+/*Step 25
+Give the .key selector a border-radius value of 0 0 3px 3px.*/
+
+
+.key {
+    background-color: #ffffff;
+    position: relative;
+    width: 41px;
+    height: 175px;
+    margin: 2px;
+    float: left;
+    border-radius: 0 0 3px 3px;
+  }
