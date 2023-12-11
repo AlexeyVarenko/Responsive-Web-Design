@@ -1,0 +1,13 @@
+/*Step 29
+Within the @media query, add a .keys selector and set the width to 318px.*/
+
+
+
+@media (max-width: 768px) {
+    #piano {
+      width: 358px;
+    }
+    .keys{
+      width: 318px;
+    }
+  }
