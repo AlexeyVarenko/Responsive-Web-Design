@@ -1,0 +1,6 @@
+/*Step 2
+Add opening and closing html tags below the DOCTYPE so you have a place to start putting some code. Be sure to set the language to English.*/
+
+
+
+<html lang="en"></html>
