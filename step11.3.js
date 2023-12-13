@@ -1,0 +1,9 @@
+/*Step 3
+Next, add opening and closing head and body tags within the html element.*/
+
+
+
+<html lang="en">
+  <head></head>
+  <body></body>
+</html>
