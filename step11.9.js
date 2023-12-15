@@ -1,0 +1,8 @@
+/*Step 9
+Give your .background-buildings element a width and height of 100% to make it the full width and height of its parent, the body.*/
+
+
+.background-buildings{
+    width: 100%;
+    height: 100%;
+  }
