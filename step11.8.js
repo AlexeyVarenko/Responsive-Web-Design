@@ -1,0 +1,8 @@
+/*Step 8
+Create a div element in the body with a class of background-buildings. This will be a container for a group of buildings.*/
+
+
+
+<body>
+  <div class="background-buildings"> </div>
+  </body>
