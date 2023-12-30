@@ -1,0 +1,18 @@
+/*Step 44
+Gradients can use as many colors as you want like this:
+
+gradient-type(
+  color1,
+  color2,
+  color3
+);
+Add a linear-gradient to .bb1d with orange as the first color, --building-color1 as the second, and --window-color1 as the third. Remember to use the gradient on the background property.*/
+
+
+.bb1d {
+    width: 100%;
+    height: 70%;
+    background-color: var(--building-color1);
+    background: linear-gradient(orange, var(--building-color1), var(--window-color1));
+  }
+  }
