@@ -1,0 +1,22 @@
+/*Step 46
+
+You can specify where you want a gradient transition to complete by adding it to the color like this:
+
+gradient-type(
+  color1,
+  color2 20%,
+  color3
+);
+Here, it will transition from color1 to color2 between 0% and 20% of the element and then transition to color3 for the rest. Add 80% to the --building-color1 color of the .bb1d gradient so you can see it in action.*/
+
+
+
+.bb1d {
+    width: 100%;
+    height: 70%;
+    background: linear-gradient(
+        orange,
+        var(--building-color1) 80%,
+        var(--window-color1)
+      );
+  }
