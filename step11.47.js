@@ -1,0 +1,13 @@
+/*Step 47
+
+Remove orange from the .bb1d gradient and change the 80% to 50%. This will make --building-color1 solid for the top half, and then transition to --window-color1 for the bottom half.*/
+
+
+.bb1d {
+    width: 100%;
+    height: 70%;
+    background: linear-gradient(
+        var(--building-color1) 50%,
+        var(--window-color1)
+      );
+  }
