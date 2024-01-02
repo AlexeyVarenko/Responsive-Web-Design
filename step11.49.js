@@ -1,0 +1,10 @@
+/*Step 49
+
+Give .bb2b a width and height of 100% to make it fill the building container. You will add something on the top a little later.*/
+
+
+
+.bb2b{
+    width: 100%;
+    height: 100%;
+  }
