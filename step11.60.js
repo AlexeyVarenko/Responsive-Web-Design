@@ -1,0 +1,18 @@
+/*Step 60
+So far, all the gradients you created have gone from top to bottom, that's the default direction. You can specify another direction by adding it before your colors like this:
+
+gradient-type(
+  direction,
+  color1,
+  color2
+);
+Fill in .bb3 with a repeating-linear-gradient. Use 90deg for the direction, your building-color3 for the first two colors, and window-color3 at 15% for the third. When you don't specify a distance for a color, it will use the values that makes sense. In this case, the first two colors will default to 0% and 7.5% because it starts at 0%, and 7.5% is half of the 15%.*/
+
+
+
+.bb3 {
+    width: 10%;
+    height: 55%;
+    background-color: var(--building-color3);
+    background: repeating-linear-gradient(90deg, var(--building-color3), var(--building-color3), var(--window-color3) 15%);
+  }
