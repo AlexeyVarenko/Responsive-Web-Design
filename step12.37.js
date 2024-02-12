@@ -1,0 +1,8 @@
+/*Step 37
+Create a .text selector and give it a grid-column property set to 2 / 3.*/
+
+
+
+.text{
+    grid-column: 2 / 3
+  }
