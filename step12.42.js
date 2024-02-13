@@ -1,0 +1,8 @@
+/*Step 42
+Give the .hero selector a position property set to relative.*/
+
+
+.hero {
+    grid-column: 1 / -1;
+    position: relative;
+  }
