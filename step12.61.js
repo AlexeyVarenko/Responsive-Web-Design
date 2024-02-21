@@ -1,0 +1,9 @@
+/*Step 61
+To give the hr a color, you need to adjust the border property. Give the hr selector a border property set to 1px solid rgba(120, 120, 120, 0.6).*/
+
+
+
+hr {
+    margin: 1.5rem 0;
+    border: 1px solid rgba(120, 120, 120, 0.6);
+  }
