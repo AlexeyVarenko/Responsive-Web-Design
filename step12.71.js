@@ -1,0 +1,7 @@
+/*Step 71
+Create a .list-title, .list-subtitle selector and set the color property to #00beef.*/
+
+
+.list-title, .list-subtitle{
+    color: #00beef;
+  }
