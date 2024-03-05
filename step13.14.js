@@ -1,0 +1,8 @@
+/*Step 14
+Time to position the cabins around the wheel. Select the first .cabin element. Set the right property to -8.5% and the top property to 50%.*/
+
+
+.cabin:nth-of-type(1){
+    right: -8.5%;
+    top: 50%;
+  }
