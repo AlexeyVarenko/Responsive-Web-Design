@@ -1,0 +1,9 @@
+/*Step 18
+Give the 0% rule a transform property set to rotate(0deg). This will start the animation with no rotation.*/
+
+
+@keyframes wheel {
+    0% {
+      transform: rotate(0deg);
+    }
+ }
