@@ -1,0 +1,19 @@
+/*Step 28
+Create a new 25% selector between your 0% and 50% selectors. Give this new selector the background-color property set to yellow.*/
+
+
+
+@keyframes cabins {
+    0% {
+      transform: rotate(0deg);
+    }
+    25%{
+      background-color: yellow;
+    }
+    50% {
+      background-color: purple;
+    }
+    100% {
+      transform: rotate(-360deg);
+    }
+  }
