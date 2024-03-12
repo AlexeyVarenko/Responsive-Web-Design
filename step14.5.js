@@ -1,0 +1,13 @@
+/*Step 5
+Remove both the horizontal and vertical scrollbars, using only one property.*/
+
+
+
+body {
+    background: linear-gradient(45deg, rgb(118, 201, 255), rgb(247, 255, 222));
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
