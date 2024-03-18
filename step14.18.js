@@ -1,0 +1,31 @@
+/*Step 18
+To overlap the mountain and .ground elements better, give the mountain a margin-top of 100px, and the .ground element a margin-top of -58px.*/
+
+
+
+.left-mountain {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(rgb(203, 241, 228), rgb(80, 183, 255));
+    position: absolute;
+    transform: skew(0deg, 44deg);
+    z-index: 2;
+    margin-top: 100px;
+  }
+  
+  .penguin {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 75px;
+  }
+  
+  .ground {
+    width: 100vw;
+    height: 400px;
+    background: linear-gradient(90deg, rgb(88, 175, 236), rgb(182, 255, 255));
+    z-index: 3;
+    position: absolute;
+    margin-top: -58px;
+  
+  }
