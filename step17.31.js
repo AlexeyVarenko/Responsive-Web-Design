@@ -1,0 +1,10 @@
+/*Step 31
+Number inputs only allow the e to occur between two digits. To match any number, you can use the character class [0-9]. This will match any digit between 0 and 9.
+
+Add this character class before and after e in your pattern.*/
+
+
+
+function isInvalidInput(str) {
+    const regex = /[0-9]e[0-9]/i;
+  }
