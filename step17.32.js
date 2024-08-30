@@ -1,0 +1,7 @@
+/*Step 32
+The + modifier in a regex allows you to match a pattern that occurs one or more times. To match your digit pattern one or more times, add a plus after each of the digit character classes. For example: [0-9]+.*/
+
+
+function isInvalidInput(str) {
+    const regex = /[0-9]+e[0-9]+/i;
+  }
