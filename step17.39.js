@@ -1,0 +1,12 @@
+/*Step 39
+You'll need to know which category the entry goes in. Thankfully, you added a dropdown for the user to select a category.
+
+Remember that you queried that dropdown earlier in your JavaScript and assigned it to the entryDropdown button. You can use the value property to get the value of the selected option.
+
+Use concatenation to add a # to the beginning of the value property of entryDropdown, and assign that result to a targetId variable.*/
+
+
+
+function addEntry() {
+    const targetId = "#" + entryDropdown.value;
+  }
