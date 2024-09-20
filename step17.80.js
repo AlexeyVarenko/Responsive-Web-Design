@@ -1,0 +1,31 @@
+/*Step 80
+You need to construct the HTML string that will be displayed in the output element. Start by assigning an empty template literal to the innerHTML property of the output element on a new line at the end of the function.*/
+
+
+
+function calculateCalories(e) {
+    e.preventDefault();
+    isError = false;
+  
+    const breakfastNumberInputs = document.querySelectorAll('#breakfast input[type=number]');
+    const lunchNumberInputs = document.querySelectorAll('#lunch input[type=number]');
+    const dinnerNumberInputs = document.querySelectorAll('#dinner input[type=number]');
+    const snacksNumberInputs = document.querySelectorAll('#snacks input[type=number]');
+    const exerciseNumberInputs = document.querySelectorAll('#exercise input[type=number]');
+  
+    const breakfastCalories = getCaloriesFromInputs(breakfastNumberInputs);
+    const lunchCalories = getCaloriesFromInputs(lunchNumberInputs);
+    const dinnerCalories = getCaloriesFromInputs(dinnerNumberInputs);
+    const snacksCalories = getCaloriesFromInputs(snacksNumberInputs);
+    const exerciseCalories = getCaloriesFromInputs(exerciseNumberInputs);
+    const budgetCalories = getCaloriesFromInputs([budgetNumberInput]);
+  
+    if (isError) {
+      return;
+    }
+  
+    const consumedCalories = breakfastCalories + lunchCalories + dinnerCalories + snacksCalories;
+    const remainingCalories = budgetCalories - consumedCalories + exerciseCalories;
+    const surplusOrDeficit = remainingCalories < 0 ? 'Surplus' : 'Deficit';
+    output.innerHTML= ``;
+  }
