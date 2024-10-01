@@ -1,0 +1,8 @@
+/*Step 96
+To complete this project, add an event listener to the clearButton button. When the button is clicked, it should call the clearForm function.
+
+Congratulations! Your project is complete.*/
+
+
+
+clearButton.addEventListener('click', clearForm)
