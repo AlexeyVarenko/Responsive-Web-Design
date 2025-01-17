@@ -9,4 +9,4 @@ To see the new result, click on the "Add New Task" button. Then add a title of W
 
 
 
-id: `${titleInput.value.toLowerCase().split(' ').join('-')}-${Date.now()}`,  
+id: `${titleInput.value.toLowerCase().split(' ').join('-')}-${Date.now()}`
