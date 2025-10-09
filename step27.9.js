@@ -5,5 +5,5 @@ For the first parameter of your callback function, destructure the name, id, pri
 
 
 products.forEach(
-  ([name, id, price, category]) => {}
+  ({name, id, price, category}) => {}
 );
