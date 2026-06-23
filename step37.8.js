@@ -1,0 +1,33 @@
+/*Step 8
+The next portion of the workshop is to review how to generate a random integer between two values.
+
+Start by adding another console.log() that logs the message "Now, generate a random integer between two values." to the console.
+
+In the next step, you will generate a random integer between the values of the min and max variables you have already created.*/
+
+
+
+const botName = "MathBot";
+const greeting = `Hi there! My name is ${botName} and I am here to teach you about the Math object!`;
+
+console.log(greeting);
+
+console.log("The Math.random() method returns a pseudo random number greater than or equal to 0 and less than 1.");
+
+const randomNum = Math.random();
+console.log(randomNum);
+
+console.log("Now, generate a random number between two values.");
+
+const min = 1;
+const max = 100;
+
+const randomNum2 = Math.random() * (max - min) + min;
+console.log(randomNum2);
+
+console.log("The Math.floor() method rounds the value down to the nearest whole integer.");
+
+const numRoundedDown = Math.floor(6.7);
+console.log(numRoundedDown);
+
+console.log("Now, generate a random integer between two values.")
