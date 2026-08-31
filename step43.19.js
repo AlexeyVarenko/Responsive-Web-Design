@@ -1,0 +1,100 @@
+/*Step 18
+Mission control has alerted you that the list of EVA-eligible astronauts should also be sorted by priority descending. There are a few ways to sort an array - perhaps the most basic is bubble sort.
+
+Bubble sort works by repeatedly stepping through a list, comparing neighboring items, and swapping them if they’re in the wrong order. After each pass, the item that should come first based on your sort criteria moves closer to (or “bubbles” toward) its correct position in the array. Here is how you can sort crew by priority descending using bubble sort:
+
+Example Code
+// Outer loop: controls how many passes we make
+for (let i = 0; i < crew.length - 1; i++) {
+  // Inner loop: compares neighboring items
+  for (let j = 0; j < crew.length - 1 - i; j++) {
+    // If current member has lower priority than next, swap
+    if (crew[j].priority < crew[j + 1].priority) {
+      // Using a temp variable for the swap
+        const temp = crew[j];
+        crew[j] = crew[j + 1];
+        crew[j + 1] = temp;
+    }
+  }
+}
+Create a new helper function named sortByPriorityDescending that accepts a crew parameter. This function should directly sort the input crew array by priority descending, use two nested for loops, and should not return anything.*/
+
+
+const squad = [];
+
+const firstAstronaut = {
+  id: 1,
+  name: "Andy",
+  role: "Commander",
+  isEVAEligible: true,
+  priority: 3
+};
+
+function addCrewMember(crew, astronaut) {
+  for (let i = 0; i < crew.length; i++) {
+    if (crew[i].id === astronaut.id) {
+      console.log("Duplicate ID: " + astronaut.id);
+      return;
+    }
+  }
+  crew.push(astronaut);
+}
+
+addCrewMember(squad, firstAstronaut);
+
+const remainingCrew = [
+  { id: 2, name: "Bart", role: "Pilot", isEVAEligible: false, priority: 8 },
+  { id: 3, name: "Caroline", role: "Engineer", isEVAEligible: true, priority: 4 },
+  { id: 4, name: "Diego", role: "Scientist", isEVAEligible: false, priority: 1 },
+  { id: 5, name: "Elise", role: "Medic", isEVAEligible: true, priority: 7 },
+  { id: 6, name: "Felix", role: "Navigator", isEVAEligible: true, priority: 6 },
+  { id: 7, name: "Gertrude", role: "Communications", isEVAEligible: false, priority: 4 },
+  { id: 8, name: "Hank", role: "Mechanic", isEVAEligible: true, priority: 2 },
+  { id: 9, name: "Irene", role: "Specialist", isEVAEligible: true, priority: 5 },
+  { id: 10, name: "Joan", role: "Technician", isEVAEligible: false, priority: 1 },
+];
+
+for (let i = 0; i < remainingCrew.length; i++) {
+  addCrewMember(squad, remainingCrew[i]);
+}
+
+function swapCrewMembers(crew, fromIndex, toIndex) {
+  if (
+    fromIndex < 0 || 
+    toIndex < 0 ||
+    fromIndex >= crew.length ||
+    toIndex >= crew.length
+  ) {
+    console.log("Invalid crew indices");
+    return;
+  }
+
+  const updatedCrew = crew.slice();
+  updatedCrew[fromIndex] = updatedCrew.splice(toIndex, 1, updatedCrew[fromIndex])[0];
+
+  return updatedCrew; 
+}
+
+const updatedSquad = swapCrewMembers(squad, 2, 5);
+
+function sortByPriorityDescending(crew) {
+  for (let i = 0; i < crew.length - 1; i++) {
+    for (let j = 0; j < crew.length - 1 - i; j++) {
+      if (crew[j].priority < crew[j + 1].priority) {
+        const temp = crew[j];
+        crew[j] = crew[j + 1];
+        crew[j + 1] = temp;
+      }
+    }
+  }
+}
+
+function getEVAReadyCrew(crew) {
+  const eligible = [];
+  for (const astronaut of crew) {
+    if (astronaut.isEVAEligible) eligible.push(astronaut);
+  }
+  
+
+  return eligible;
+}
